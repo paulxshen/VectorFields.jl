@@ -1,0 +1,4 @@
+name = "VectorFields"
+uuid = "2ef2efd3-c30e-40b6-9c52-cbe70b3c3f7e"
+authors = ["Paul Shen <pxshen@alumni.stanford.edu>"]
+version = "0.1.0"
