@@ -1,5 +1,5 @@
 module VectorFields
-
-greet() = print("Hello World!")
+include("main.jl")
+export cdiff, diffpad, hess, Del # Laplacian#, Op, Gauss
 
 end # module VectorFields
