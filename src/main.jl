@@ -1,5 +1,6 @@
-using DataStructures, LinearAlgebra, Statistics, UnPack, Zygote, ArrayPadding, Porcupine
-using Zygote: Buffer
+using LinearAlgebra, Statistics, UnPack, Zygote, ArrayPadding, Porcupine
+using Porcupine: keys, values, pairs
+using Zygote: Buffer, @ignore_derivatives
 
 include("ops.jl")
 include("del.jl")
